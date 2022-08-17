@@ -2,18 +2,21 @@
 #find only common numbers in two lists.
 import random
 
+def random_list():
+    return random.sample(range(1,1000),100)
 
-a = random.sample(range(1,1000),100)
-b = random.sample(range(1,1000),100)
-#a = [1, 1, 2, 3, 5, 8, 13, 13, 21, 34, 55, 89]
-#b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
-c = set([i for i in a if i in b])
+def common_parts(a,b):
+    return set([i for i in a if i in b])
+
+a = random_list()
+b = random_list()
+c = common_parts(a,b)
 
 #alternative method
 #for i in a:
 #    if i in b and i not in c:
 #        c.append(i)
 
-#print(a)
-#print(b)
+print(a)
+print(b)
 print(c)
