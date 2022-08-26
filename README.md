@@ -13,3 +13,9 @@ NR4 - commonpart - Finds and lists the common numbers in two random lists
 NR5 - divisors - lists the divisors of a given number
 
 NR6 - checkPalindrom - checks if the word is palindrom
+
+NR7 - listcomprehensions - just a simple example of list comprehensions
+
+NR8 - guessgame - game where u can guess the number computer pick
+
+NR9 - rockpaperscissors - classic rock paper scissors game for two playes
